@@ -36,6 +36,7 @@
 #include "KeyFrameDatabase.h"
 #include "ORBVocabulary.h"
 #include "Viewer.h"
+#include "zsim_hooks.h"
 
 namespace ORB_SLAM2
 {

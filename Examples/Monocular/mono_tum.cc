@@ -41,6 +41,10 @@ int main(int argc, char **argv)
         return 1;
     }
 
+    zsim_roi_begin();
+      cout << "Checking hooks" << endl;
+    zsim_roi_end();
+    
     // Retrieve paths to images
     vector<string> vstrImageFilenames;
     vector<double> vTimestamps;
